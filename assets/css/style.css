@@ -1,0 +1,15 @@
+body {
+  padding-top: 7em;
+}
+
+nav {
+  background-color: #fafafa!important;
+}
+
+.nav_inner {
+  padding: 2em 0;
+}
+
+.nav_inner img {
+  padding-left: 1.5em;
+}
