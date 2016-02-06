@@ -2,8 +2,12 @@ body {
   padding-top: 7em;
 }
 
+.inline {
+  display: inline-block;
+}
+
 nav {
-  background-color: #fafafa!important;
+  background-color: #FFFFFF!important;
 }
 
 .nav_inner {
@@ -11,5 +15,30 @@ nav {
 }
 
 .nav_inner img {
-  padding-left: 1.5em;
+  padding-left: 2em;
+}
+
+.nav_links {
+  padding-right: 2em;
+  font-size: 18px;
+}
+
+.nav_links a {
+  color: #9B1719;
+  text-decoration: none;
+  font-size: 18px
+}
+
+.nav_links a:hover {
+  color: #9B1719;
+}
+
+footer {
+  height: 500px;
+  width: 100%;
+  background: url('/assets/images/footer-bg1200.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
