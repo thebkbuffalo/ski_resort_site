@@ -1,5 +1,5 @@
 body {
-  padding-top: 7em;
+  padding-top: 6.5em;
 }
 
 .inline {
@@ -8,6 +8,7 @@ body {
 
 nav {
   background-color: #FFFFFF!important;
+  border: 0!important;
 }
 
 .nav_inner {
@@ -34,16 +35,23 @@ nav {
 }
 
 /*HOME/START*/
-#home {
-  background: url('/assets/images/index1200@2x.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 1200px;
-  width: 1200px%;
+.home_inner {
+  position: relative;
 }
 
+.home_inner img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.home_header {
+  position: relative;
+  top: -18em;
+  color: #FFFFFF;
+  z-index: 9999;
+}
+
+/*FOOTER*/
 footer {
   height: 550px;
   width: 1545px;
