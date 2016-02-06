@@ -42,3 +42,12 @@ footer {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.footer_inner {
+  padding: 5em;
+}
+
+.footer_inner ul {
+  padding: 3em;
+  vertical-align: middle!important;
+}
