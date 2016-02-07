@@ -2,6 +2,15 @@ body {
   padding-top: 6.5em;
 }
 
+/*ACTIVE VS INACTIVE*/
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
+
 .inline {
   display: inline-block;
 }
@@ -34,7 +43,13 @@ nav {
   color: #9B1719;
 }
 
-/*HOME/START*/
+.start_over {
+  position: relative;
+  top: -60em;
+  margin-right: 88%;
+  z-index: 9999;
+}
+
 .content {
   position: relative;
   margin-bottom: -9em;
