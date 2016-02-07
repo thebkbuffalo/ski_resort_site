@@ -37,10 +37,11 @@ nav {
 /*HOME/START*/
 .home_inner {
   position: relative;
+  margin-bottom: -9em;
 }
 
 .home_inner img {
-  max-height: 95%;
+  max-height: 100%;
   max-width: 100%;
 }
 
@@ -59,11 +60,16 @@ nav {
   position: relative;
 }
 
-.footer_list {
+.footer_lists {
   position: absolute;
-  top: -10em;
+  top: -1px;
   z-index: 9999;
-  padding: 5em;
+  margin-left: 10em;
+  margin-top: 4em;
+}
+
+.footer_lists ul {
+  padding: 3em;
 }
 
 .footer_image {
