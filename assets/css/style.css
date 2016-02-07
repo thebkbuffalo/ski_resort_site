@@ -35,17 +35,17 @@ nav {
 }
 
 /*HOME/START*/
-.home_inner {
+.content {
   position: relative;
   margin-bottom: -9em;
 }
 
-.home_inner img {
+.content img {
   max-height: 100%;
   max-width: 100%;
 }
 
-.home_text {
+.content_text {
   position: relative;
   margin: 0 25em;
   top: -40em;
@@ -64,7 +64,7 @@ nav {
   position: absolute;
   top: -1px;
   z-index: 9999;
-  margin-left: 10em;
+  margin-left: 13em;
   margin-top: 4em;
 }
 
