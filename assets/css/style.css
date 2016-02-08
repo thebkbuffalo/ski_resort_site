@@ -1,5 +1,6 @@
 body {
   padding-top: 6.5em;
+  padding-bottom: 3em;
 }
 
 /*ACTIVE VS INACTIVE*/
@@ -56,7 +57,7 @@ nav {
 
 .content {
   position: relative;
-  margin-bottom: -9em;
+  /*margin-bottom: -9em;*/
 }
 
 .content img {
@@ -71,6 +72,28 @@ nav {
   top: -40em;
   color: #FFFFFF;
   z-index: 9999;
+}
+
+.landing_page_text {
+  position: relative;
+  margin: 0 25em;
+  top: -20em;
+  color: #FFFFFF;
+  z-index: 9999;
+}
+
+.options {
+  margin-top: 3em;
+}
+
+.indi_option {
+  display: inline-block;
+  text-align: justify;
+  padding: 1em;
+}
+
+.indi_option img {
+  height: 200px;
 }
 
 
