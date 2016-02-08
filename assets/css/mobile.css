@@ -1,0 +1,34 @@
+/*smaller phones*/
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+}
+
+/*phones*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+/*tablets*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .content_text {
+    margin: 0 13em;
+    top: -30em;
+  }
+}
+
+/*tablets*/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .content_text {
+      margin: 0 13em;
+      top: -30em;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+
+}
