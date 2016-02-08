@@ -1,6 +1,6 @@
 body {
   padding-top: 6.5em;
-  padding-bottom: 3em;
+  padding-bottom: 5em;
 }
 
 /*ACTIVE VS INACTIVE*/
@@ -94,6 +94,20 @@ nav {
 
 .indi_option img {
   height: 200px;
+}
+
+.line_text {
+ width: 100%;
+ text-align: center;
+ border-bottom: 1px solid #000;
+ line-height: 0.1em;
+ margin: 10px 0 20px;
+}
+
+.line_text span {
+  padding: 0 15px;
+  background: #FFF;
+  color: #9B1719;
 }
 
 
