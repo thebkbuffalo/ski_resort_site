@@ -1,7 +1,8 @@
-/* Begin Responsive Changes */
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
-/* Place your styles for phones and small tablets here */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
   .full_nav {
     display: none;
   }
@@ -45,6 +46,56 @@
     font-size: 1.8em;
   }
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .full_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+    padding-bottom: 2em;
+  }
+  .mobile_nav img {
+    margin: 2em 0 0 2em;
+  }
+  .fa-bars {
+    padding-top: .3em;
+    padding-right: .7em!important;
+  }
+  .home {
+    background: url(/assets/images/mobile/index360@2x.jpg) no-repeat center center;
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .home_inner img {
+    display: none;
+  }
+  .content_text {
+    margin: 0 2em;
+    position: static;
+    top: 0;
+    /*padding-top: 25em;*/
+  }
+  .content_text h1, h4 {
+    font-size: 3em!important;
+  }
+  .content_text h4 {
+    /*margin-top: 1em;*/
+  }
+  .content_text button {
+    margin-bottom: 5em!important;
+    font-size: 1.8em;
+  }
+}
+
 
 
 
