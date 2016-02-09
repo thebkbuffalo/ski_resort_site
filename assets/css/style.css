@@ -21,7 +21,7 @@ button {
   background-color: #9B1719!important;
   height: 5em;
   width: 18em;
-  margin: 2em 1.5em 0 1.5em!important;
+  margin: 3em 1.5em 0 1.5em!important;
 }
 
 nav {
@@ -67,17 +67,17 @@ nav {
 .content img {
   max-height: 100%;
   max-width: 100%;
-  margin-bottom: -13em;
+  margin-bottom: -15em;
 }
 
 .home_inner img {
-  margin-bottom: -19em!important;
+  margin-bottom: -23em!important;
 }
 
 .content_text {
   position: relative;
   margin: 0 25em;
-  top: -33em;
+  top: -28em;
   color: #FFFFFF;
   z-index: 9999;
 }
