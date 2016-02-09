@@ -16,12 +16,20 @@ body {
   display: inline-block;
 }
 
+.mobile_bg {
+  display: none;
+}
+
 button {
   border-radius: 0!important;
   background-color: #9B1719!important;
   height: 5em;
   width: 18em;
   margin: 3em 1.5em 0 1.5em!important;
+}
+
+.mobile_nav {
+  display: none;
 }
 
 nav {
