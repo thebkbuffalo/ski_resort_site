@@ -19,9 +19,9 @@ body {
 button {
   border-radius: 0!important;
   background-color: #9B1719!important;
-  height: 4.5em;
-  width: 15em;
-  margin-top: 2em!important;
+  height: 5em;
+  width: 18em;
+  margin: 2em 1.5em 0 1.5em!important;
 }
 
 nav {
@@ -67,7 +67,7 @@ nav {
 .content img {
   max-height: 100%;
   max-width: 100%;
-  margin-bottom: -12.5em;
+  margin-bottom: -13em;
 }
 
 .home_inner img {
