@@ -82,6 +82,18 @@ nav {
   z-index: 9999;
 }
 
+.canyon_inner img {
+  margin-bottom: -12em;
+}
+
+.town_inner img {
+  margin-bottom: -12em;
+}
+
+.base_inner img {
+  margin-bottom: -13.5em;
+}
+
 .landing_page_text {
   position: relative;
   margin: 0 25em;
