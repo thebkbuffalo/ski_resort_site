@@ -96,18 +96,31 @@ nav {
   height: 200px;
 }
 
+.page_break {
+  margin: 3em;
+}
+
 .line_text {
  width: 100%;
  text-align: center;
  border-bottom: 1px solid #000;
  line-height: 0.1em;
- 
 }
 
 .line_text span {
   padding: 0 15px;
   background: #FFF;
   color: #9B1719;
+}
+
+.other_base_areas {
+  text-align: center;
+  display: inline-block;
+}
+
+.other_base_areas img {
+  width: 540px;
+  height: 296px;
 }
 
 
