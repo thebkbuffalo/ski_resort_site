@@ -38,4 +38,34 @@ $(document).ready(function(){
     $('.town').removeClass('inactive');
     $('.town').addClass('active');
   });
+
+  $('.dining').on('click', function(){
+    $('.so_experience').fadeOut(500);
+    $('.town').removeClass('inactive');
+    $('.town').addClass('active');
+  });
+
+  $('.family1').on('click', function(){
+    $('.family_experience').fadeOut(500);
+    $('.canyon').removeClass('inactive');
+    $('.canyon').addClass('active');
+  });
+
+  $('.so1').on('click', function(){
+    $('.so_experience').fadeOut(500);
+    $('.canyon').removeClass('inactive');
+    $('.canyon').addClass('active');
+  });
+
+  $('.friends2').on('click', function(){
+    $('.friends_experience').fadeOut(500);
+    $('.base').removeClass('inactive');
+    $('.base').addClass('active');
+  });
+
+  $('.family2').on('click', function(){
+    $('.family_experience').fadeOut(500);
+    $('.base').removeClass('inactive');
+    $('.base').addClass('active');
+  });
 });

@@ -1,5 +1,5 @@
 body {
-  padding-top: 6.5em;
+  padding-top: 5.3em;
   /*padding-bottom: 5em;*/
 }
 
@@ -90,6 +90,7 @@ nav {
   display: inline-block;
   text-align: justify;
   padding: 1em;
+  vertical-align: top!important;
 }
 
 .indi_option img {
@@ -115,12 +116,13 @@ nav {
 
 .other_bases {
   text-align: center;
-  margin-bottom: 3.5em;
+  margin-bottom: 5em;
 }
 
 .other_base_areas {
   padding: 0 2em;
   text-align: justify!important;
+  vertical-align: top!important;
 }
 
 .other_base_areas img {
