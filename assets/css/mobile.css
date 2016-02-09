@@ -3,6 +3,9 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+  #overlay {
+    height: 70%;
+  }
   .full_nav {
     display: none;
   }
@@ -41,9 +44,9 @@
   .content_text h4 {
     margin-top: 1em;
   }
-  .content_text button {
+  .start {
     margin-bottom: 17em!important;
-    font-size: 1.8em;
+    font-size: 1.8em!important;
   }
 }
 
@@ -52,6 +55,10 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+  #overlay-back {
+    height: 160%!important;
+  }
+
   .full_nav {
     display: none;
   }
