@@ -33,7 +33,9 @@ $(document).ready(function(){
     $('.so_experience').addClass('active');
   });
 
-
-
-
+  $('.apres').on('click', function(){
+    $('.friends_experience').fadeOut(500);
+    $('.town').removeClass('inactive');
+    $('.town').addClass('active');
+  });
 });
