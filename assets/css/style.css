@@ -158,6 +158,34 @@ nav {
   height: 400px;
 }
 
+#overlay-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9B1719;
+  /*opacity: 0.8;*/
+  z-index: 5;
+  display: none;
+}
+
+#overlay {
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  top: 25em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none;
+}
+
+.mobile_nav_inner a {
+  color: #FFFFFF;
+}
+
 footer {
   background-color: #B5B5B5;
   position: relative;

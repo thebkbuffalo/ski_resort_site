@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  // LOGIC FOR QUESTION MATRIX
   $('.start').on('click', function(){
     $('.home').fadeOut(500);
     // $('.home').removeClass('active');
@@ -68,4 +69,14 @@ $(document).ready(function(){
     $('.base').removeClass('inactive');
     $('.base').addClass('active');
   });
+
+  // mobile nav menu
+  $('.fa-bars').on('click', function(){
+    $('#overlay, #overlay-back, .mobile_nav_inner').fadeIn(500);
+  });
+
+  $('#overlay, #overlay-back').on('click', function(){
+    $('#overlay, #overlay-back, .mobile_nav_inner').fadeOut(500);
+  });
+
 });
