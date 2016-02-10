@@ -31,7 +31,19 @@
     height: 100%;
     background-size: cover;
   }
+  .travel_with {
+    background: url(/assets/images/mobile/Q1_768@2x.jpg) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
   .home_inner img {
+    display: none;
+  }
+  .travel_with_inner img {
     display: none;
   }
   .content_text {
@@ -46,12 +58,20 @@
   .content_text h4 {
     margin-top: 1em;
   }
+  .friends, .family, .so {
+    display: block!important;
+    margin-left: 17.5em!important;
+  }
   .start {
     margin-bottom: 17em!important;
     font-size: 1.8em!important;
+    margin-left: 1.5em!important;
   }
   .full_site {
     display: block;
+  }
+  footer {
+    height: 6em;
   }
 }
 
@@ -106,6 +126,9 @@
   .content_text button {
     margin-bottom: 7em!important;
     font-size: 1.8em;
+  }
+  footer {
+    height: 6em;
   }
 }
 /*------------------ IPHONE 6 SECTION ------------------*/
@@ -171,6 +194,9 @@
   .full_site {
     display: block;
   }
+  footer {
+    height: 6em;
+  }
 }
 
 /*---------- IPHONE 6+ ----------------*/
@@ -233,5 +259,8 @@
   }
   .full_site {
     display: block;
+  }
+  footer {
+    height: 6em;
   }
 }

@@ -54,6 +54,9 @@
   .full_site {
     display: block;
   }
+  footer {
+    height: 6em;
+  }
 }
 
 /* Landscape */
@@ -106,5 +109,8 @@
   }
   .full_site {
     display: block;
+  }
+  footer {
+    height: 6em;
   }
 }
