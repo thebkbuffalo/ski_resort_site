@@ -209,6 +209,9 @@
     position: static;
     font-size: 1.2em;
   }
+  .friends_exp_txt, .family_exp_txt, .so_exp_txt {
+    margin-top: -18em!important;
+  }
   .content_text button {
     margin-bottom: 7em!important;
     font-size: 1em;
@@ -274,6 +277,9 @@
     margin: 0 5em;
     position: static;
     font-size: 1.2em;
+  }
+  .friends_exp_txt, .family_exp_txt, .so_exp_txt {
+    margin-top: -18em!important;
   }
   .content_text button {
     margin-bottom: 7em!important;
