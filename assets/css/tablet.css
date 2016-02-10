@@ -134,6 +134,18 @@
     height: 100%;
     background-size: cover;
   }
+  .friends_experience, .family_experience, .so_experience {
+    background: url(/assets/images/mobile/Q2_768@2x.jpg) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .friends_experience_inner img, .family_experience_inner img, .so_experience_inner img {
+    display: none;
+  }
   .travel_with_inner img {
     display: none;
   }
@@ -157,6 +169,13 @@
   .travel_with_text button {
     margin-bottom: 0!important;
     font-size: .6em;
+  }
+  .friends_exp_txt, .family_exp_txt, .so_exp_txt {
+    margin-top: 8em!important;
+  }
+  .friends_exp_txt button, .family_exp_txt button, .so_exp_txt button {
+    margin-top: 3em!important;
+    font-size: .5em;
   }
   .full_site {
     display: block;
