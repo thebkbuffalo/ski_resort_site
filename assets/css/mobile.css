@@ -209,6 +209,12 @@
     position: static;
     font-size: 1.2em;
   }
+  .travel_with_text {
+    margin-top: -20em!important;
+  }
+  .travel_with_text .btn {
+    margin-bottom: .5em!important;
+  }
   .friends_exp_txt, .family_exp_txt, .so_exp_txt {
     margin-top: -18em!important;
   }
@@ -277,6 +283,12 @@
     margin: 0 5em;
     position: static;
     font-size: 1.2em;
+  }
+  .travel_with_text {
+    margin-top: -20em!important;
+  }
+  .travel_with_text .btn {
+    margin-bottom: .5em!important;
   }
   .friends_exp_txt, .family_exp_txt, .so_exp_txt {
     margin-top: -18em!important;
