@@ -50,6 +50,9 @@
     margin-bottom: 17em!important;
     font-size: 1.8em!important;
   }
+  .full_site {
+    display: block;
+  }
 }
 
 /*iphone 5 landscape*/
@@ -101,7 +104,7 @@
     /*margin-top: 1em;*/
   }
   .content_text button {
-    margin-bottom: 5em!important;
+    margin-bottom: 7em!important;
     font-size: 1.8em;
   }
 }
@@ -162,8 +165,11 @@
     font-size: 1.2em;
   }
   .content_text button {
-    margin-bottom: 5em!important;
+    margin-bottom: 7em!important;
     font-size: 1em;
+  }
+  .full_site {
+    display: block;
   }
 }
 
@@ -222,7 +228,10 @@
     font-size: 1.2em;
   }
   .content_text button {
-    margin-bottom: 5em!important;
+    margin-bottom: 7em!important;
     font-size: 1em;
+  }
+  .full_site {
+    display: block;
   }
 }
