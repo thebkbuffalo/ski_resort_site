@@ -41,6 +41,10 @@
     top: 0;
     padding-top: 17em;
   }
+  .travel_with_text {
+    margin: 0 2em 10em 2em!important;
+    padding-top: 0!important;
+  }
   .content_text h1, h4 {
     font-size: 4em!important;
   }
