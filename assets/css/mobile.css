@@ -127,7 +127,10 @@
     margin: 0 2em;
     position: static;
     top: 0;
-    /*padding-top: 25em;*/
+    /*margin-top: -13em!important;*/
+  }
+  .friends_exp_txt, .family_exp_txt, .so_exp_txt {
+    margin-top: -18em!important;
   }
   .friends, .family, .so {
     display: block!important;
