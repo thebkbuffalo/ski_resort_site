@@ -175,7 +175,7 @@
   }
   .friends_exp_txt button, .family_exp_txt button, .so_exp_txt button {
     margin-top: 3em!important;
-    font-size: .5em;
+    font-size: .7em!important;
   }
   .full_site {
     display: block;
