@@ -110,6 +110,18 @@
     height: 100%;
     background-size: cover;
   }
+  .travel_with {
+    background: url(/assets/images/mobile/Q1_768@2x.jpg) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .travel_with_inner img {
+    display: none;
+  }
   .home_inner img {
     display: none;
   }
@@ -119,9 +131,17 @@
     position: static;
     font-size: 1.5em;
   }
+  .travel_with_text {
+    margin: 10em .5em!important;
+    padding-top: 0!important;
+  }
   .content_text button {
     margin-bottom: 13em!important;
     font-size: 1em;
+  }
+  .travel_with_text button {
+    margin-bottom: 0!important;
+    font-size: .6em;
   }
   .full_site {
     display: block;
