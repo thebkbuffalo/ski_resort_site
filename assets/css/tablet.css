@@ -32,6 +32,18 @@
     height: 100%;
     background-size: cover;
   }
+  .travel_with {
+    background: url(/assets/images/mobile/Q1_768@2x.jpg) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .travel_with_inner img {
+    display: none;
+  }
   .home_inner img {
     display: none;
   }
@@ -42,7 +54,7 @@
     padding-top: 17em;
   }
   .travel_with_text {
-    margin: 0 2em 10em 2em!important;
+    margin: 30em 2em 0 2em!important;
     padding-top: 0!important;
   }
   .content_text h1, h4 {
