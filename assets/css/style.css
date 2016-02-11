@@ -22,6 +22,13 @@ body {
   /*padding-bottom: 5em;*/
 }
 
+.vr {
+  border-left: 1px solid lightgray;
+  height: 37px;
+  display: inline-block;
+  margin-bottom: -10px;
+}
+
 /*ACTIVE VS INACTIVE*/
 .active {
   display: block;
@@ -58,24 +65,25 @@ nav {
 }
 
 .nav_inner {
-  padding: 1em 0;
+  /*padding: 1em 0;*/
 }
 
 .nav_inner img {
   padding-left: 2em;
-  padding-top: .3em;
+  padding-top: 1.2em;
 }
 
 .nav_links {
   padding-right: 2em;
-  padding-top: .5em;
+  padding-top: 1em;
   font-size: 18px;
 }
 
 .nav_links a {
   color: #9B1719;
   text-decoration: none;
-  font-size: 18px
+  font-size: 18px;
+  padding: .7em;
 }
 
 .nav_links a:hover {
