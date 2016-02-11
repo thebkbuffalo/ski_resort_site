@@ -59,6 +59,9 @@
   .home_inner img {
     display: none;
   }
+  .friends_exp_txt, .family_exp_txt, .so_exp_txt {
+    margin: 13em 0 0 0!important;
+  }
   .content_text {
     margin: 0 8em;
     position: static;
@@ -68,9 +71,6 @@
   .travel_with_text {
     margin: 30em 2em 0 2em!important;
     padding-top: 0!important;
-  }
-  .friends_exp_txt, .family_exp_txt, .so_exp_txt {
-    margin-top: 13em!important;
   }
   .content_text h1, h4 {
     font-size: 4em!important;
@@ -179,6 +179,9 @@
   }
   .full_site {
     display: block;
+  }
+  nav {
+    font-size: .7em!important
   }
   footer {
     height: 6em;

@@ -72,11 +72,13 @@ $(document).ready(function(){
 
   // mobile nav menu
   $('.fa-bars').on('click', function(){
+    
     $('#overlay, #overlay-back, .mobile_nav_inner').fadeIn(500);
   });
 
   $('#overlay, #overlay-back').on('click', function(){
     $('#overlay, #overlay-back, .mobile_nav_inner').fadeOut(500);
+
   });
 
 });
