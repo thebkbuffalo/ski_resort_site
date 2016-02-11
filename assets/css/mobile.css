@@ -8,6 +8,15 @@
   #overlay {
     height: 70%;
   }
+  h1 {
+    font-size: 30px!important;
+  }
+  h2 {
+    font-size: 16px!important;
+  }
+  h4, h5 {
+    font-family: 'TradeGothicBC'!important;
+  }
   .full_nav {
     display: none;
   }
@@ -64,9 +73,9 @@
     top: 0;
     padding-top: 25em;
   }
-  .content_text h1, h3 {
+  /*.content_text h1, h3 {
     font-size: 4em!important;
-  }
+  }*/
   .content_text h4 {
     margin-top: 1em;
   }
@@ -85,11 +94,6 @@
     height: 3em!important;
     width: 14em!important;
     font-size: 3.3em!important;
-  }
-  .start {
-    /*margin-bottom: 17em!important;*/
-    /*font-size: 3em!important;*/
-    /*margin-right: em!important;*/
   }
   .full_site {
     display: block;
