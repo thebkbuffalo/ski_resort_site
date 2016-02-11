@@ -156,9 +156,8 @@
     /*margin-top: -18em!important;*/
     margin: 0!important;
   }
-  .friends, .family, .so {
-    /*display: block!important;*/
-    /*margin-left: 14em!important;*/
+  nav {
+    font-size: .8em!important;
   }
   .content_text h1, h4 {
     font-size: 3em!important;
@@ -247,6 +246,9 @@
   .full_site {
     display: block;
   }
+  nav {
+    font-size: .7em!important;
+  }
   footer {
     height: 6em;
   }
@@ -321,6 +323,9 @@
   }
   .full_site {
     display: block;
+  }
+  nav {
+    font-size: .7em!important;
   }
   footer {
     height: 6em;
