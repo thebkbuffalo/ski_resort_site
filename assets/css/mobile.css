@@ -52,7 +52,7 @@
     top: 0;
     padding-top: 25em;
   }
-  .content_text h1, h4 {
+  .content_text h1, h3 {
     font-size: 4em!important;
   }
   .content_text h4 {
@@ -60,12 +60,17 @@
   }
   .friends, .family, .so {
     display: block!important;
-    margin-left: 17.5em!important;
+    margin-left: 10.3em!important;
+  }
+  button {
+    height: 3em!important;
+    width: 14em!important;
+    font-size: 3.3em!important;
   }
   .start {
-    margin-bottom: 17em!important;
-    font-size: 1.8em!important;
-    margin-left: 1.5em!important;
+    /*margin-bottom: 17em!important;*/
+    /*font-size: 3em!important;*/
+    /*margin-right: em!important;*/
   }
   .full_site {
     display: block;
