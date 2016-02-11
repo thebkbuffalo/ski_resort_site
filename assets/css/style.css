@@ -130,7 +130,7 @@ nav {
 
 .content_text {
   position: relative;
-  margin: 0 10em;
+  margin: 0 2em;
   top: -28em;
   color: #FFFFFF;
   z-index: 9999;
@@ -174,7 +174,7 @@ nav {
   padding: 1em;
   vertical-align: top!important;
   max-width: 356px;
-  margin-right: 4em;
+  margin-right: 1.5em;
 }
 
 .indi_option img {
