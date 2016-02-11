@@ -60,7 +60,7 @@
   }
   .friends, .family, .so {
     display: block!important;
-    margin-left: 10.3em!important;
+    /*margin-left: 10.3em!important;*/
   }
   button {
     height: 3em!important;
