@@ -75,8 +75,11 @@
     /*margin-left: 10.3em!important;*/
   }
   .family2 {
-    height: 4.3em!important;
-    width: 14em!important;
+    display: none!important;
+  }
+  .family2_mobile {
+    display: block;
+    height: 4em!important;
   }
   button {
     height: 3em!important;
@@ -325,7 +328,7 @@
     display: block;
   }
   nav {
-    font-size: .7em!important;
+    font-size: .6em!important;
   }
   footer {
     height: 6em;
