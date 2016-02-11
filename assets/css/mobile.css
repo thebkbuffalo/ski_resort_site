@@ -32,13 +32,25 @@
     background-size: cover;
   }
   .travel_with {
-    background: url(/assets/images/mobile/Q1_768@2x.jpg) no-repeat center center;
+    background: url(/assets/images/mobile/Q1_360@2x.jpg) no-repeat center center;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-size: cover;
+  }
+  .friends_experience, .family_experience, .so_experience {
+    background: url(/assets/images/mobile/Q2_360@2x.jpg) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .friends_experience img, .family_experience img, .so_experience img {
+    display: none;
   }
   .home_inner img {
     display: none;
@@ -61,6 +73,10 @@
   .friends, .family, .so {
     display: block!important;
     /*margin-left: 10.3em!important;*/
+  }
+  .family2 {
+    height: 4.3em!important;
+    width: 14em!important;
   }
   button {
     height: 3em!important;
@@ -137,7 +153,8 @@
     top: -5em!important;
   }
   .friends_exp_txt, .family_exp_txt, .so_exp_txt {
-    margin-top: -18em!important;
+    /*margin-top: -18em!important;*/
+    margin: 0!important;
   }
   .friends, .family, .so {
     /*display: block!important;*/
