@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, p, button {
 }
 nav {
   font-family: 'TradeGothicBC'!important;
+  font-size: 18px!important  ;
 }
 body {
   padding-top: 5.3em;
@@ -41,9 +42,10 @@ body {
 button {
   border-radius: 0!important;
   background-color: #9B1719!important;
-  height: 5em;
-  width: 18em;
+  height: 4.5em;
+  width: 16.5em;
   margin: 3em 1.5em 0 1.5em!important;
+  font-size: 20px!important;
 }
 
 .mobile_nav {
@@ -56,15 +58,17 @@ nav {
 }
 
 .nav_inner {
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 .nav_inner img {
   padding-left: 2em;
+  padding-top: .3em;
 }
 
 .nav_links {
   padding-right: 2em;
+  padding-top: .5em;
   font-size: 18px;
 }
 
@@ -102,10 +106,18 @@ nav {
 
 .content_text {
   position: relative;
-  margin: 0 25em;
+  margin: 0 10em;
   top: -28em;
   color: #FFFFFF;
   z-index: 9999;
+}
+
+.content_text h1 {
+  font-size: 48px;
+}
+
+.content_text h3 {
+  font-size: 22px;
 }
 
 .canyon_inner img {
@@ -217,7 +229,7 @@ footer {
 }
 
 footer h5 {
-  padding-top: .3em;
+  padding-top: 1em;
 }
 
 /*OLD FOOTER*/
