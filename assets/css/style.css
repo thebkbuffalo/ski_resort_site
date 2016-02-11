@@ -49,10 +49,10 @@ body {
 button {
   border-radius: 0!important;
   background-color: #9B1719!important;
-  height: 4.5em;
-  width: 16.5em;
+  height: 3.5em;
+  width: 15.5em;
   margin: 3em 1.5em 0 1.5em!important;
-  font-size: 20px!important;
+  font-size: 23px!important;
 }
 
 .mobile_nav {
@@ -109,7 +109,7 @@ nav {
 }
 
 .home_inner img {
-  margin-bottom: -26em!important;
+  margin-bottom: -27em!important;
 }
 
 .content_text {
