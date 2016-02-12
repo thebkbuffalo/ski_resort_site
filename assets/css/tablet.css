@@ -69,8 +69,12 @@
     padding-top: 17em;
   }
   .travel_with_text {
-    margin: 30em 2em 0 2em!important;
+    margin: 30em 0 0 0!important;
     padding-top: 0!important;
+  }
+  .travel_with_text button {
+    height: 3em!important;
+    width: 11em!important;
   }
   .content_text h1, h4 {
     font-size: 4em!important;
