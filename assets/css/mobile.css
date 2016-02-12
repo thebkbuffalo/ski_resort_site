@@ -148,6 +148,9 @@
   .travel_with_inner img {
     display: none;
   }
+  .travel_with_inner {
+    margin: 0!important;
+  }
   .travel_with_text h1 {
     margin-top: 6em!important;
   }
@@ -228,6 +231,18 @@
     height: 100%;
     background-size: cover;
   }
+  .travel_with {
+    background: url(/assets/images/mobile/Q1_768@2x.jpg) no-repeat center center;
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .travel_with img {
+    display: none;
+  }
   .home_inner img {
     display: none;
   }
@@ -245,6 +260,9 @@
   }
   .friends_exp_txt, .family_exp_txt, .so_exp_txt {
     margin-top: -18em!important;
+  }
+  .friends, .family, .so {
+    display: inline-block!important:
   }
   .content_text button {
     margin-bottom: 7em!important;
