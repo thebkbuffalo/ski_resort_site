@@ -1,4 +1,11 @@
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1300px) {
+  .full_nav {
+    display: none;
+  }
+  .movile_nav {
+    display: block;
+  }
+}
 /* ----------- iPad mini ----------- */
 /* Portrait */
 @media only screen
